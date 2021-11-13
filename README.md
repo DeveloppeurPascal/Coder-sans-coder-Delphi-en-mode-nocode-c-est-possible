@@ -1,10 +1,26 @@
-# Coder-sans-coder-Delphi-en-mode-nocode-c-est-possible
+# Using No Code techniques to create programs with Delphi
 
-Retrouvez ici les projets de démonstration utilisés lors du webinaire du 30 septembre 2021 sur Twitch.
+This project contains samples for those talks :
 
-Plus d'informations sur cette session sont [disponibles sur le blog Developpeur Pascal](https://developpeur-pascal.fr/p/___00n-coder-sans-coder-delphi-en-mode-nocode-c-est-possible-webinaire-le-30-septembre-a-14-heures.html).
+- First one in french "Coder sans coder : Delphi en mode no code." available at https://serialstreameur.fr/webinaire-20210930.php
 
-La rediffusion de cette session sera mise en ligne dans quelques jours. Cette page et ce dépôt seront mis à jour à ce moment là.
+- Second one in english "Using Delphi as a No Code Development IDE" available at the DelphiCon 2021 conference at https://delphicon.embarcadero.com/talks/using-delphi-as-a-no-code-development-ide-on-demand/
+
+As you will see we can create a lot of projects on Windows, Mac, Linux, iOS and Android with Delphi with no programing knowledge. Copy&paste, drag&drop, filling properties, using automatic links or Live Bindings and it's okay for simple database applications.
+
+To maintain suspense, the sample code will be uploaded during DelphiCon.
+
+-----
+
+Ce projet contient les exemples liés à ces deux présentations :
+
+- La première en français : "Coder sans coder : Delphi en mode no code." disponible en rediffusion sur https://serialstreameur.fr/webinaire-20210930.php
+
+- La seconde en anglais "Using Delphi as a No Code Development IDE" disponible durant la conférence DelphiCon 2021 sur https://delphicon.embarcadero.com/talks/using-delphi-as-a-no-code-development-ide-on-demand/
+
+Comme vous le verrez on peu créer tout un tas de projets pour Windows, Mac, Linux, iOS et Android sans connaissances en programmation. Copier/coller, glisser/déposer, remplir quelques propriétés, utiliser les liens automatisés ou avec Live Bindings et c'est bon pour avoir des applications de gestion de données simples.
+
+Pour ne pas spoiler la DelphiCon, les exemples de cette présentation seront publiés à ce moment là.
 
 -----
 
