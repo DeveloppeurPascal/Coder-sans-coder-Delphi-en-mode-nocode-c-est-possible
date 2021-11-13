@@ -1,0 +1,302 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 408
+  ClientWidth = 720
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 720.000000000000000000
+    Size.Height = 408.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      720s
+      408s
+      720s
+      408s
+      720s
+      408s)
+    object PageCustomers: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Customers'
+      object StringGrid1: TStringGrid
+        Align = Client
+        CanFocus = True
+        ClipChildren = True
+        Size.Width = 720.000000000000000000
+        Size.Height = 383.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        RowCount = 91
+        Viewport.Width = 700.000000000000000000
+        Viewport.Height = 342.000000000000000000
+      end
+      object BindNavigator1: TBindNavigator
+        Align = Bottom
+        Margins.Right = 80.000000000000000000
+        Position.Y = 383.000000000000000000
+        Size.Width = 640.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        DataSource = BindSourceDB1
+        VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbRefresh]
+        xRadius = 4.000000000000000000
+        yRadius = 4.000000000000000000
+        object Button1: TButton
+          Action = GoOrders
+          Align = Right
+          Enabled = True
+          ImageIndex = -1
+          Margins.Right = -80.000000000000000000
+          Position.X = 640.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Orders'
+        end
+      end
+    end
+    object PageOrders: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Orders'
+      object StringGrid2: TStringGrid
+        Align = Client
+        CanFocus = True
+        ClipChildren = True
+        Size.Width = 720.000000000000000000
+        Size.Height = 383.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        RowCount = 6
+        Viewport.Width = 716.000000000000000000
+        Viewport.Height = 342.000000000000000000
+      end
+      object BindNavigator2: TBindNavigator
+        Align = Bottom
+        Margins.Left = 80.000000000000000000
+        Margins.Right = 80.000000000000000000
+        Position.X = 80.000000000000000000
+        Position.Y = 383.000000000000000000
+        Size.Width = 560.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        DataSource = BindSourceDB2
+        VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbRefresh]
+        xRadius = 4.000000000000000000
+        yRadius = 4.000000000000000000
+        object Button2: TButton
+          Action = GoCustomers
+          Align = Left
+          Enabled = True
+          ImageIndex = -1
+          Margins.Left = -80.000000000000000000
+          Position.X = -80.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Customers'
+        end
+        object Button3: TButton
+          Action = GoOrderDetails
+          Align = Right
+          Enabled = True
+          ImageIndex = -1
+          Margins.Right = -80.000000000000000000
+          Position.X = 560.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Details'
+        end
+      end
+    end
+    object PageOrderDetails: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Details'
+      object StringGrid3: TStringGrid
+        Align = Client
+        CanFocus = True
+        ClipChildren = True
+        Size.Width = 720.000000000000000000
+        Size.Height = 356.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        RowCount = 3
+        Viewport.Width = 716.000000000000000000
+        Viewport.Height = 331.000000000000000000
+      end
+      object BindNavigator3: TBindNavigator
+        Align = Bottom
+        Margins.Left = 160.000000000000000000
+        Position.X = 160.000000000000000000
+        Position.Y = 383.000000000000000000
+        Size.Width = 560.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        DataSource = BindSourceDB3
+        VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbRefresh]
+        xRadius = 4.000000000000000000
+        yRadius = 4.000000000000000000
+        object Button4: TButton
+          Action = GoCustomers
+          Align = Left
+          Enabled = True
+          ImageIndex = -1
+          Margins.Left = -160.000000000000000000
+          Position.X = -160.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Customers'
+        end
+        object Button5: TButton
+          Action = GoOrders
+          Align = Left
+          Enabled = True
+          ImageIndex = -1
+          Position.X = -80.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Orders'
+        end
+      end
+      object Label1: TLabel
+        Align = Bottom
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 361.000000000000000000
+        Size.Width = 710.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Product'
+        TabOrder = 2
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Right
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          TabOrder = 4
+          ReadOnly = True
+          Text = 'Rossle Sauerkraut'
+          Position.X = 64.000000000000000000
+          Size.Width = 646.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 504
+    Top = 192
+    object GoCustomers: TChangeTabAction
+      Category = 'Onglet'
+      Tab = PageCustomers
+    end
+    object GoOrders: TChangeTabAction
+      Category = 'Onglet'
+      Tab = PageOrders
+    end
+    object GoOrderDetails: TChangeTabAction
+      Category = 'Onglet'
+      Tab = PageOrderDetails
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = DataModule2.CustomersTable
+    ScopeMappings = <>
+    Left = 304
+    Top = 224
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 340
+    Top = 21
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Liaisons rapides'
+      DataSource = BindSourceDB1
+      GridControl = StringGrid1
+      Columns = <>
+    end
+    object LinkGridToDataSourceBindSourceDB2: TLinkGridToDataSource
+      Category = 'Liaisons rapides'
+      DataSource = BindSourceDB2
+      GridControl = StringGrid2
+      Columns = <>
+    end
+    object LinkGridToDataSourceBindSourceDB3: TLinkGridToDataSource
+      Category = 'Liaisons rapides'
+      DataSource = BindSourceDB3
+      GridControl = StringGrid3
+      Columns = <>
+    end
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Liaisons rapides'
+      DataSource = BindSourceDB4
+      FieldName = 'ProductName'
+      Control = Edit1
+      Track = False
+    end
+  end
+  object BindSourceDB2: TBindSourceDB
+    DataSet = DataModule2.OrdersTable
+    ScopeMappings = <>
+    Left = 312
+    Top = 232
+  end
+  object BindSourceDB3: TBindSourceDB
+    DataSet = DataModule2.OrderdetailsTable
+    ScopeMappings = <>
+    Left = 320
+    Top = 240
+  end
+  object BindSourceDB4: TBindSourceDB
+    DataSet = DataModule2.ProductsTable
+    ScopeMappings = <>
+    Left = 344
+    Top = 192
+  end
+end
