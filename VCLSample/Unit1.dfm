@@ -22,11 +22,12 @@ object Form1: TForm1
     TabOrder = 0
     object TabSheet1: TTabSheet
       Caption = 'TabSheet1'
+      TabVisible = False
       object DBGrid1: TDBGrid
         Left = 0
         Top = 0
         Width = 616
-        Height = 370
+        Height = 390
         Align = alClient
         DataSource = dsClients
         TabOrder = 0
@@ -38,13 +39,14 @@ object Form1: TForm1
       end
       object Panel1: TPanel
         Left = 0
-        Top = 370
+        Top = 390
         Width = 616
         Height = 41
         Align = alBottom
         BevelOuter = bvNone
         Caption = 'Panel1'
         TabOrder = 1
+        ExplicitTop = 370
         object btnCommandes: TButton
           Left = 520
           Top = 0
@@ -70,11 +72,12 @@ object Form1: TForm1
     object TabSheet2: TTabSheet
       Caption = 'TabSheet2'
       ImageIndex = 1
+      TabVisible = False
       object DBGrid2: TDBGrid
         Left = 0
         Top = 0
         Width = 616
-        Height = 370
+        Height = 390
         Align = alClient
         DataSource = dsOrders
         TabOrder = 0
@@ -86,13 +89,14 @@ object Form1: TForm1
       end
       object Panel2: TPanel
         Left = 0
-        Top = 370
+        Top = 390
         Width = 616
         Height = 41
         Align = alBottom
         BevelOuter = bvNone
         Caption = 'Panel2'
         TabOrder = 1
+        ExplicitTop = 370
         object DBNavigator2: TDBNavigator
           Left = 75
           Top = 0
@@ -128,11 +132,12 @@ object Form1: TForm1
     object TabSheet3: TTabSheet
       Caption = 'TabSheet3'
       ImageIndex = 2
+      TabVisible = False
       object DBGrid3: TDBGrid
         Left = 0
         Top = 0
         Width = 616
-        Height = 370
+        Height = 390
         Align = alClient
         DataSource = dsOrderDetail
         TabOrder = 0
@@ -144,12 +149,13 @@ object Form1: TForm1
       end
       object Panel3: TPanel
         Left = 0
-        Top = 370
+        Top = 390
         Width = 616
         Height = 41
         Align = alBottom
         Caption = 'Panel3'
         TabOrder = 1
+        ExplicitTop = 370
         object btnRetourClients: TButton
           Left = 1
           Top = 1
@@ -216,12 +222,14 @@ object Form1: TForm1
       TabControl = PageControl1
       Caption = 'Sui&vant'
       Hint = 'Suivant|Aller '#224' l'#39'onglet suivant'
+      SkipHiddenTabs = False
     end
     object TabPreviousTab1: TPreviousTab
       Category = 'Onglet'
       TabControl = PageControl1
       Caption = 'P&r'#233'c'#233'dent'
       Hint = 'Pr'#233'c'#233'dent|Revenir '#224' l'#39'onglet pr'#233'c'#233'dent'
+      SkipHiddenTabs = False
     end
   end
   object OrdersTable: TFDQuery
