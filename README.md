@@ -18,8 +18,6 @@ Ce projet contient les exemples liés à ces deux présentations :
 
 Comme vous le verrez on peu créer tout un tas de projets pour Windows, Mac, Linux, iOS et Android sans connaissances en programmation. Copier/coller, glisser/déposer, remplir quelques propriétés, utiliser les liens automatisés ou avec Live Bindings et c'est bon pour avoir des applications de gestion de données simples.
 
-Pour ne pas spoiler la DelphiCon, les exemples de cette présentation seront publiés à ce moment là.
-
 -----
 
 Si vous ne connaissez pas Delphi et le langage Pascal, profitez de la version Academic (pour les étudiants, enseignants et établissements d'enseignement) ou Community Edition (gratuite pour une utilisation personnelle) disponibles chez Embarcadero (rubrique "outils gratuits").
