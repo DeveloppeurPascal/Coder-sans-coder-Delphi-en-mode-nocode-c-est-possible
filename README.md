@@ -8,8 +8,6 @@ This project contains samples for those talks :
 
 As you will see we can create a lot of projects on Windows, Mac, Linux, iOS and Android with Delphi with no programing knowledge. Copy&paste, drag&drop, filling properties, using automatic links or Live Bindings and it's okay for simple database applications.
 
-To maintain suspense, the sample code will be uploaded during DelphiCon.
-
 -----
 
 Ce projet contient les exemples liés à ces deux présentations :
