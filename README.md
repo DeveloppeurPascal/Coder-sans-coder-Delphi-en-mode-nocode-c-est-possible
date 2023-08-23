@@ -1,34 +1,46 @@
 # Using No Code techniques to create programs with Delphi
 
+[Cette page en français.](LISEZMOI.md)
+
 This project contains samples for those talks :
 
-- First one in french "Coder sans coder : Delphi en mode no code." available at https://serialstreameur.fr/webinaire-20210930.php
+- [Coder sans coder : Delphi en mode no code](https://serialstreameur.fr/webinaire-20210930.php) on September 30, 2021 available in French
 
-- Second one in english "Using Delphi as a No Code Development IDE" available at the DelphiCon 2021 conference at https://serialstreameur.fr/delphicon-2021-delphi-nocode.php
+- [Using Delphi as a No Code Development IDE](https://serialstreameur.fr/delphicon-2021-delphi-nocode.php) on November 13, 2021 available in English
 
 As you will see we can create a lot of projects on Windows, Mac, Linux, iOS and Android with Delphi with no programing knowledge. Copy&paste, drag&drop, filling properties, using automatic links or Live Bindings and it's okay for simple database applications.
 
------
+This code repository contains projects developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
-Ce projet contient les exemples liés à ces deux présentations :
+## Source code installation
 
-- La première en français : "Coder sans coder : Delphi en mode no code." disponible en rediffusion sur https://serialstreameur.fr/webinaire-20210930.php
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/Coder-sans-coder-Delphi-en-mode-nocode-c-est-possible).
 
-- La seconde en anglais "Using Delphi as a No Code Development IDE" disponible durant la conférence DelphiCon 2021 sur https://serialstreameur.fr/delphicon-2021-delphi-nocode.php
+## License to use this code repository and its contents
 
-Comme vous le verrez on peu créer tout un tas de projets pour Windows, Mac, Linux, iOS et Android sans connaissances en programmation. Copier/coller, glisser/déposer, remplir quelques propriétés, utiliser les liens automatisés ou avec Live Bindings et c'est bon pour avoir des applications de gestion de données simples.
+This source code is distributed under the [MIT license](https://github.com/DeveloppeurPascal/Coder-sans-coder-Delphi-en-mode-nocode-c-est-possible/blob/main/LICENSE).
 
------
+These source codes are provided as is, without warranty of any kind.
 
-Si vous ne connaissez pas Delphi et le langage Pascal, profitez de la version Academic (pour les étudiants, enseignants et établissements d'enseignement) ou Community Edition (gratuite pour une utilisation personnelle) disponibles chez Embarcadero (rubrique "outils gratuits").
-En entreprise vous pouvez aussi tester Delphi avec la version d'évaluation.
-https://www.embarcadero.com/products/delphi
+Certain elements included in this repository may be subject to third-party usage rights (images, sounds, etc.). They are not reusable in your projects unless otherwise stated.
 
-Cette formation en ligne gratuite vous apprendra les bases de la programmation avec le Pascal et Delphi même si vous n'avez jamais appris à programmer :
-https://apprendre-delphi.fr/apprendre-la-programmation-avec-delphi/
+## How to ask a new feature, report a bug or a security issue ?
 
-Des conférences en ligne et des webinaires (points techniques sur des sujets précis) sont organisés régulièrement. Consultez [le planning de ces webinaires](https://developpeur-pascal.fr/p/_6007-webinaires.html) et regardez les [rediffusions des webinaires Delphi](https://serialstreameur.fr/webinaires-delphi.php).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/Coder-sans-coder-Delphi-en-mode-nocode-c-est-possible) and [open a new issue](https://github.com/DeveloppeurPascal/Coder-sans-coder-Delphi-en-mode-nocode-c-est-possible/issues).
 
-Des sessions de [live coding sur Twitch](https://www.twitch.tv/patrickpremartin) ou [la chaîne YouTube Developpeur Pascal](https://www.youtube.com/channel/UCk_LmkBB90jdEdmfF77W6qQ) sont également organisées régulièrement. Pour Twitch vous pouvez consulter [le planning hebdomadaire](https://www.twitch.tv/patrickpremartin/schedule). Vous pouvez aussi vous reporter à [cet article](https://developpeur-pascal.fr/p/_600e-livestreams-de-codage-en-direct-avec-delphi.html). Pour les rediffusions de tout ça, rendez-vous simplement dans la [rubrique live coding](https://serialstreameur.fr/live-coding.php) de [Serial Streameur](https://serialstreameur.fr/) où vous trouverez de nombreuses vidéos en français à destination des développeurs de logiciels, applications mobiles, sites web et jeux vidéo.
+If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 
-Enfin, si vous préférez la lecture à la vidéo, vous trouverez tous les livres récents publiés sur Delphi et le langage Pascal sur [Delphi Books](https://delphi-books.com)
+You also can fork the repository and contribute by submitting pull requests if you want to help. Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## Support the project and its author
+
+If you think this project is useful and want to support it, please make a donation to [its author](https://github.com/DeveloppeurPascal). It will help to maintain the code and binaries.
+
+You can use one of those services :
+
+* [GitHub Sponsors](https://github.com/sponsors/DeveloppeurPascal)
+* [Liberapay](https://liberapay.com/PatrickPremartin)
+* [Patreon](https://www.patreon.com/patrickpremartin)
+* [Paypal](https://www.paypal.com/paypalme/patrickpremartin)
+
+or if you speack french you can [subscribe to Zone Abo](https://zone-abo.fr/nos-abonnements.php) on a monthly or yearly basis and get a lot of resources as videos and articles.
