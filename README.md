@@ -4,7 +4,7 @@ This project contains samples for those talks :
 
 - First one in french "Coder sans coder : Delphi en mode no code." available at https://serialstreameur.fr/webinaire-20210930.php
 
-- Second one in english "Using Delphi as a No Code Development IDE" available at the DelphiCon 2021 conference at https://delphicon.embarcadero.com/talks/using-delphi-as-a-no-code-development-ide-on-demand/
+- Second one in english "Using Delphi as a No Code Development IDE" available at the DelphiCon 2021 conference at https://serialstreameur.fr/delphicon-2021-delphi-nocode.php
 
 As you will see we can create a lot of projects on Windows, Mac, Linux, iOS and Android with Delphi with no programing knowledge. Copy&paste, drag&drop, filling properties, using automatic links or Live Bindings and it's okay for simple database applications.
 
@@ -14,7 +14,7 @@ Ce projet contient les exemples liés à ces deux présentations :
 
 - La première en français : "Coder sans coder : Delphi en mode no code." disponible en rediffusion sur https://serialstreameur.fr/webinaire-20210930.php
 
-- La seconde en anglais "Using Delphi as a No Code Development IDE" disponible durant la conférence DelphiCon 2021 sur https://delphicon.embarcadero.com/talks/using-delphi-as-a-no-code-development-ide-on-demand/
+- La seconde en anglais "Using Delphi as a No Code Development IDE" disponible durant la conférence DelphiCon 2021 sur https://serialstreameur.fr/delphicon-2021-delphi-nocode.php
 
 Comme vous le verrez on peu créer tout un tas de projets pour Windows, Mac, Linux, iOS et Android sans connaissances en programmation. Copier/coller, glisser/déposer, remplir quelques propriétés, utiliser les liens automatisés ou avec Live Bindings et c'est bon pour avoir des applications de gestion de données simples.
 
